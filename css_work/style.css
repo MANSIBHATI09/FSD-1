@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(181, 187, 187);
+}
+
+div {
+    background-color: cadetblue;
+}
+
+.container {
+    background-color: rgb(93, 126, 126);
+    height: 400px;
+    border: 2px solid black;
+    /* margin: 100px; */
+    padding: 20px;
+    box-sizing: border-box;
+    /* margin-left: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row-reverse;
+
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+    /* background-color: rgb(238, 238, 127); */
+    height: 200px;
+    width: 200px;
+
+
+    border: 2px dotted goldenrod;
+    /* display: inline-block; */
+    margin: 30px;
+
+
+}
+
+.child1 {
+    background-color: brown;
+}
+
+.child2 {
+    background-color: cadetblue;
+}
+
+.child3 {
+    background-color: rgb(35, 77, 63);
+}
+.child4{
+    background-color: rgb(238, 238, 127);
+}
+
+/* div>p{         direct child of div 
+    background-color: brown;
+ } */
+
+/* div+p{         
+    background-color: brown;
+ } */
+/* #child1{
+    background-color: rgb(123, 207, 207);
+  }
+  .myclass{
+    background-color: blueviolet;
+  } */
