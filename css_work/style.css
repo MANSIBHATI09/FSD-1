@@ -15,9 +15,9 @@ div {
     box-sizing: border-box;
     /* margin-left: 200px; */
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-flow: row-reverse;
-
+    justify-content: space-between;
 }
 
 .child1,
@@ -38,6 +38,7 @@ div {
 
 .child1 {
     background-color: brown;
+    flex-basis: 50%;
 }
 
 .child2 {
@@ -49,6 +50,7 @@ div {
 }
 .child4{
     background-color: rgb(238, 238, 127);
+    
 }
 
 /* div>p{         direct child of div 
